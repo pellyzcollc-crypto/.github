@@ -7,7 +7,8 @@ for coding agents editing the project. The served agent's prompt is
 The root agent is the Hypower superintendent desk. Specialists live in
 `bot/subagents/` and do not get their own tools. Buy quantities exist
 only in `bot/tools/rollup-materiales.ts`. The notebook is
-`bot/tools/cuaderno.ts`. Do not add a tool that sends mail or writes
+`bot/tools/cuaderno.ts`. A pasted Revu markups list is read by
+`bot/tools/bluebeam.ts`. Do not add a tool that sends mail or writes
 to Procore, Smartsheet, Bluebeam, OpenSpace, or Navisworks.
 
 ## Loop

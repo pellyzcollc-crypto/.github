@@ -8,7 +8,7 @@ Para guardar hace falta un proyecto en `cuaderno`. Si `leer` no trae proyecto, p
 
 Cada fila usa `upsert_circuito`. Campos mínimos: id estable, proyectoId, tipo, desde, hasta. En un homerun pide panel y circuito si faltan, una sola vez, y guarda igual si Pedro dice que los completa después. En un feeder pide amperaje, conduit y conductores si faltan, con la misma regla.
 
-No calcules largo. Si no midió en Bluebeam, `largoFt` no va.
+No calcules largo. Si `bluebeam` trae esa fila en ft, ese número es `largoFt`. Si no hay largo medido, el campo no va.
 
 `listar_circuitos` antes de reescribir una lista que dice ya tener.
 
