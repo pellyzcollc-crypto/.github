@@ -1,0 +1,18 @@
+{
+  "name": "hypower-oficina",
+  "private": true,
+  "type": "module",
+  "description": "Mesa de oficina del superintendente de Hypower.",
+  "scripts": {
+    "check": "tsc --noEmit",
+    "dev": "agent-sdk dev"
+  },
+  "dependencies": {
+    "@grok/agent-sdk": "^0.6.0",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "typescript": "6.0.3"
+  }
+}
